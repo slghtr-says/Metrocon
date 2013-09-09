@@ -1,0 +1,388 @@
+App.progressCountTotal = 48;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Attendie1.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'Attendie1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Attendie1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Attendie1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Attendie1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Attendie1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Attendie1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Attendie1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards1.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'Awards1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards10.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Awards10.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards10_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards10_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards10_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards10_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards10_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards10_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards11.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'Awards11.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards11_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards11_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards11_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards11_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards11_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards11_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards12.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'Awards12.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards12_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards12_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards12_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards12_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards12_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards12_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards13.JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'Awards13.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards13_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards13_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards13_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards13_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards13_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards13_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards14.JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'Awards14.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards14_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards14_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards14_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards14_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards14_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards14_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards15.JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'Awards15.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards15_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards15_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards15_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards15_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards15_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards15_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards16.JPG');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'Awards16.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards16_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards16_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards16_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards16_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards16_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards16_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards17.JPG');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'Awards17.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards17_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards17_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards17_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards17_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards17_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards17_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards18.JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'Awards18.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards18_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards18_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards18_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards18_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards18_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards18_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards2.JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'Awards2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards3.JPG');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'Awards3.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards4.JPG');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'Awards4.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards4_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards4_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards4_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards4_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards4_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards4_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards5.JPG');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'Awards5.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards5_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards5_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards5_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards5_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards5_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards5_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards6.JPG');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'Awards6.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards6_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards6_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards6_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards6_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards6_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards6_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards7.JPG');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'Awards7.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards7_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards7_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards7_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards7_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards7_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards7_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards8.JPG');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'Awards8.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards8_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards8_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards8_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards8_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards8_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards8_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Awards9.JPG');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'Awards9.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards9_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards9_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Awards9_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards9_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards9_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Awards9_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Chairman.JPG');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'Chairman.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Chairman_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Chairman_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Chairman_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Chairman_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Chairman_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Chairman_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Eason.JPG');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'Eason.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Eason_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Eason_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Eason_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Eason_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Eason_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Eason_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Group1.JPG');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'Group1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Group2.JPG');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'Group2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Group3.JPG');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'Group3.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Group3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Group3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Keynote1.JPG');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'Keynote1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Keynote3.JPG');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'Keynote3.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Keynote4.JPG');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'Keynote4.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote4_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote4_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote4_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote4_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote4_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote4_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Keynote5.JPG');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'Keynote5.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote5_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote5_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keynote5_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote5_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote5_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keynote5_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/KeynoteAward.JPG');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'KeynoteAward.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/KeynoteAward_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/KeynoteAward_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/KeynoteAward_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/KeynoteAward_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/KeynoteAward_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/KeynoteAward_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/KeynoteAward2.JPG');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'KeynoteAward2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/KeynoteAward2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/KeynoteAward2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/KeynoteAward2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/KeynoteAward2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/KeynoteAward2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/KeynoteAward2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Keyote2.JPG');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'Keyote2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keyote2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keyote2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Keyote2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keyote2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keyote2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Keyote2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/LockheedRegistration.JPG');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'LockheedRegistration.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/LockheedRegistration2.JPG');
+App.progressCountCurrent = 33;
+App.batchStatusString = 'LockheedRegistration2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/LockheedRegistration3.JPG');
+App.progressCountCurrent = 34;
+App.batchStatusString = 'LockheedRegistration3.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/LockheedRegistration3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/LockheedRegistration3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Lunch.JPG');
+App.progressCountCurrent = 35;
+App.batchStatusString = 'Lunch.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Lunch_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Lunch_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Lunch_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Lunch_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Lunch_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Lunch_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/PowerTrack1.JPG');
+App.progressCountCurrent = 36;
+App.batchStatusString = 'PowerTrack1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/PowerTrack2.JPG');
+App.progressCountCurrent = 37;
+App.batchStatusString = 'PowerTrack2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/PowerTrack3.JPG');
+App.progressCountCurrent = 38;
+App.batchStatusString = 'PowerTrack3.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/PowerTrack3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/PowerTrack3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/Registration1.JPG');
+App.progressCountCurrent = 39;
+App.batchStatusString = 'Registration1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Registration1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Registration1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/Registration1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Registration1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Registration1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/Registration1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/RegistrationLine.JPG');
+App.progressCountCurrent = 40;
+App.batchStatusString = 'RegistrationLine.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/RegistrationLine_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/RegistrationLine_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/RegistrationLine_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/RegistrationLine_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/RegistrationLine_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/RegistrationLine_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/RegistrationTable.JPG');
+App.progressCountCurrent = 41;
+App.batchStatusString = 'RegistrationTable.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/RegistrationTable_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/RegistrationTable_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/RegistrationTable_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/RegistrationTable_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/RegistrationTable_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/RegistrationTable_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/SaffordIntro1.JPG');
+App.progressCountCurrent = 42;
+App.batchStatusString = 'SaffordIntro1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/SaffordIntro2.JPG');
+App.progressCountCurrent = 43;
+App.batchStatusString = 'SaffordIntro2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/SaffordIntro3.JPG');
+App.progressCountCurrent = 44;
+App.batchStatusString = 'SaffordIntro3.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/SaffordIntro3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/SaffordIntro3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/TDregistration.JPG');
+App.progressCountCurrent = 45;
+App.batchStatusString = 'TDregistration.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TDregistration_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TDregistration_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TDregistration_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TDregistration_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TDregistration_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TDregistration_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/TechTrack1.JPG');
+App.progressCountCurrent = 46;
+App.batchStatusString = 'TechTrack1.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack1_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/TechTrack2.JPG');
+App.progressCountCurrent = 47;
+App.batchStatusString = 'TechTrack2.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack2_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/Data/IEEEFtw/MetroCon2002Images/Diane/TechTrack3.JPG');
+App.progressCountCurrent = 48;
+App.batchStatusString = 'TechTrack3.JPG';
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/images/TechTrack3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:60, jpegSmoothness:2, jpegSubsampling:1, name:"JPEG - Smaller File", numEntriesRequested:0, percentScale:"40", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack3_JPG.jpg') || confirm('file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/Data/IEEEFtw/Web/metrocon2002/Photos/thumbnails/TechTrack3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

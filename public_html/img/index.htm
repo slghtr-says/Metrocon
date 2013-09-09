@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>MetroCon 2011</title>
+<link rel="stylesheet" href="emx_nav_left.css" type="text/css">
+<script type="text/javascript">
+<!--
+var time = 3000;
+var numofitems = 7;
+
+//menu constructor
+function menu(allitems,thisitem,startstate){
+  callname= "gl"+thisitem;
+  divname="subglobal"+thisitem;
+  this.numberofmenuitems = 7;
+  this.caller = document.getElementById(callname);
+  this.thediv = document.getElementById(divname);
+  this.thediv.style.visibility = startstate;
+}
+
+//menu methods
+function ehandler(event,theobj){
+  for (var i=1; i<= theobj.numberofmenuitems; i++){
+    var shutdiv =eval( "menuitem"+i+".thediv");
+    shutdiv.style.visibility="hidden";
+  }
+  theobj.thediv.style.visibility="visible";
+}
+
+function closesubnav(event){
+  if ((event.clientY <48)||(event.clientY > 107)){
+    for (var i=1; i<= numofitems; i++){
+      var shutdiv =eval('menuitem'+i+'.thediv');
+      shutdiv.style.visibility='hidden';
+    }
+  }
+}
+// -->
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #550000}
+.style2 {color: #000000}
+.style4 {color: #000000; font-weight: bold; }
+-->
+</style>
+</head>
+<body onmousemove="closesubnav(event);">
+<div class="skipLinks">skip to: <a href="#content">page content</a> | <a href="pageNav">links on this page</a> | <a href="#globalNav">site navigation</a> | <a href="#siteInfo">footer (site information)</a> </div>
+<div id="masthead">
+  <h1 id="siteName">Featured Tracks</h1>
+  <div id="utility">
+    | <a href="http://www.ieee.org/" target="_blank">IEEE</a> | <a href="http://www.ewh.ieee.org/r5/fort_worth/" target="_blank">Local IEEE</a>
+  </div>
+  <div id="globalNav">
+    <img alt="" src="gblnav_left.gif" height="32" width="4" id="gnl"> <img alt="" src="glbnav_right.gif" height="32" width="4" id="gnr">
+    <div id="globalLink">
+    <a href="#" id="gl1" class="glink" onmouseover="ehandler(event,menuitem1);">Emerging Technologies</a><a href="#" id="gl2" class="glink" onmouseover="ehandler(event,menuitem2);">Software and Systems Engineering</a><a href="#" id="gl3" class="glink" onmouseover="ehandler(event,menuitem3);">Developing and Deploying Secure Systems</a><a href="#" id="gl4" class="glink" onmouseover="ehandler(event,menuitem4);">Biotechnologies</a></div>
+    <!--end globalLinks-->
+  </div>
+  <!-- end globalNav -->
+  <div id="subglobal1" class="subglobalNav">
+    <a href="emerg1.htm">8:30 - 9:30</a> | <a href="emerg2.htm">9:45 - 10:45</a> | <a href="emerg3.htm">11:00 - 12:00</a> | <a href="emerg4.htm">14:00 - 15:15</a> | <a href="emerg5.htm">15:30 - 16:45</a>
+  </div>
+  <div id="subglobal2" class="subglobalNav">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="softSys1.htm">8:30 - 9:30</a> | <a href="softSys2.htm">9:45 - 10:45</a> | <a href="softSys3.htm">11:00 - 12:00</a> | <a href="softSys4.htm">14:00 - 15:15</a> | <a href="softSys5.htm">15:30 - 16:45</a>
+  </div>
+  <div id="subglobal3" class="subglobalNav">
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="devDeploy1.htm">8:30 - 9:30</a> | <a href="devDeploy2.htm">9:45 - 10:45</a> | <a href="devDeploy3.htm">11:00 - 12:00</a> | <a href="devDeploy4.htm">14:00 - 15:15</a> | <a href="devDeploy5.htm">15:30 - 16:45</a>
+  </div>
+  <div id="subglobal4" class="subglobalNav">
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="bioTech1.htm">8:30 - 9:30</a> | <a href="bioTech2.htm">9:45 - 10:45</a> | <a href="bioTech3.htm">11:00 - 12:00</a> | <a href="bioTech4.htm">14:00 - 15:15</a> | <a href="bioTech5.htm">15:30 - 16:45</a>
+  </div>
+  <div id="subglobal5" class="subglobalNav">
+    <a href="#">8:30 - 9:30</a> | <a href="#">9:45 - 10:45</a> | <a href="#">11:00 - 12:00
+    </a> | <a href="#">14:00 - 15:15</a> | <a href="#">15:30 - 16:45</a>
+  </div>
+  <div id="subglobal6" class="subglobalNav">
+    <a href="#">8:30 - 9:30</a> | <a href="#">9:45 - 10:45</a> | <a href="#">11:00 - 12:00
+   </a> | <a href="#">14:00 - 15:15</a> | <a href="#">15:30 - 16:45</a>
+  </div>
+  <div id="subglobal7" class="subglobalNav">
+    <a href="#">8:30 - 9:30</a> | <a href="#">9:45 - 10:45</a> | <a href="#">11:00 - 12:00
+    </a> | <a href="#">14:00 - 15:15</a> | <a href="#">15:30 - 16:45</a>
+  </div>
+  <div id="subglobal8" class="subglobalNav">
+    <a href="#">8:30 - 9:30</a> | <a href="#">9:45 - 10:45</a> | <a href="#">subglobal8
+    </a> | <a href="#">14:00 - 15:15</a> | <a href="#">15:30 - 16:45</a>
+  </div>
+</div>
+<!-- end masthead -->
+<div id="pagecell1">
+  <!--pagecell1-->
+  <img alt="" src="tl_curve_white.gif" height="6" width="6" id="tl"> <img alt="" src="tr_curve_white.gif" height="6" width="6" id="tr">
+  <div id="breadCrumb">
+  </div>
+  <div id="pageName">
+    <h2>MetroCon 2011 | <span class="style1">&quot;Innovating for Society&quot;</span> | October 6th, 2011</h2>
+
+  </div>
+  <div id="pageNav">
+    <div id="sectionLinks">
+      <a href="#">HOME</a> <a href="http://www.cvent.com/d/jcqnx4" target="_blank">REGISTRATION</a> <a href="program.htm">PROGRAM</a> <a href="schedule.htm">SCHEDULE</a> <a href="committee.htm">COMMITTEE</a> <a href="location.htm">LOCATION</a>
+    </div>
+    <div class="relatedLinks">
+      <h3>Additional Links</h3>
+      <a href="METROCON_2011.pdf" target="_blank">Brochure</a> <a href="http://www.metrocon.org/metrocon2009/gallery.htm" target="_blank">Gallery</a> <a href="http://www.metrocon.org/pastconferences/pastconferences.htm" target="_blank">Past Conferences</a> </div>
+    <div class="relatedLinks">
+      <h3>MetroCon 2011 Patrons</h3>
+      <p><a href="http://www.lockheedmartin.com/" target="_blank"><img src="images/image013b.gif" alt="Lockheed Martin" width="159" height="28" border="0"></a> </p>
+      <p><a href="http://www.hsc.unt.edu/" target="_blank"><img src="images/UNTHSC_new_logo.jpg" alt="University of North Texas Health Science Center Research" width="159" height="35" border="0"></a></p>
+      <img src="images/Thunderbird_final_blue.png" alt="Thunderbird Technology Group" width="150" height="77" border="0"></div>
+	<div id="advert">
+      <p><a href="http://www.fresneltech.com" target="_blank"><img src="images/fresnelTech3.gif" alt="Fresnel Technologies" width="159" height="44" border="0" /></a></p>
+      <p><img src="images/Oncor_logo_sm(1).jpg" width="139" height="83"></p>
+      <p><img src="images/RTN_RGB_RED.jpg" width="134" height="29"> </p>
+	    </div>
+  </div>
+  <div id="content">
+    <div class="feature">
+      <img src="images/ieee_mb_black.gif" alt="" width="225" height="75">
+      <h3>The world's leading professional association for the advancement of technology</h3>
+      <p>
+      Welcome to MetroCon 2011! MetroCon is an annual engineering conference hosted by IEEE-Fort Worth.&nbsp; The conference&rsquo;s aim is to educate engineers in the Dallas/Fort Worth Metroplex on the latest developments in science, engineering, and technology.&nbsp; MetroCon attracts over 200 area engineers and technical managers.</p>
+    </div>
+    <div class="story">
+      <h3>Comprehensive Engineering Conference</h3>
+      <p>
+      <SPAN style="language: EN">With four exclusive parallel conference tracks, this year&rsquo;s IEEE-FW Section MetroCon provides one of the strongest programs ever, allowing the attendee to rapidly grasp the technical and societal implications of some of our most promising and innovative new developments. Each track has been organized in well coordinated morning and afternoon sessions to help achieve maximum exposure in minimum time.</SPAN></p>
+      <p><SPAN class=style17><strong><strong><img src="images/keynote_Thuraisingham.jpg" width="206" height="207" hspace="15" vspace="10" border="1" align="left"></strong><span class="style2">This year's keynote speaker will be <strong>Dr. Bhavani M Thuraisingham</strong>, the Louis A. Beecherl, Jr. I Distinguished Professor in the Erik Jonsson 
+School of Engineering and Computer Science at the University of Texas at Dallas 
+(UTD). </span></strong></SPAN></p>
+      <p>  She is an IEEE Fellow, 
+        holds 3 U.S. patents, and has authored over 100 journal articles, over 200 refereed conference papers, and 10 books
+        covering advanced topics in data mining, security, data mining for counter-terrorism, and database and application
+        security. Her keynote address at MetroCon 2010 will discuss the latest in data mining for cyber-security, data mining
+        techniques for handling postulated threats to national security, and current research challenges in developing techniques
+      for real-time data mining.</p>
+      <p>&nbsp;</p>
+      <P class=pagetext>&nbsp;</P>
+      <P class=pagetext><SPAN class=style17><strong><img src="images/plenarySpeaker.jpg" alt="Geeth Chettiar" width="206" height="207" hspace="15" vspace="10" border="1" align="left"></strong></SPAN><span class="style4">Our plenary speaker will be  Geeth Chettiar.</span></P>
+      <p>Geeth Chettiar is director of Mission Systems and Software for Lockheed Martin Aeronautics Corporation.&nbsp; She has responsibility for leading the functional engineering organization for the mission system software and avionics hardware across LM Aeronautics. </p>
+      <p>Geeth has served in a number of roles in varying capacities at several Lockheed Martin locations and many business areas during her 21 years at Lockheed Martin.&nbsp; Her most recent technical position was as the Director of the Space Based Infrared Systems Flight Software at Lockheed Martin Space Systems Company in Sunnyvale, CA.&nbsp; Her career includes diverse leadership positions in program management, systems and software engineering execution, human resources and new business capture. </p>
+      <p>Geeth is a graduate of the University of Maryland where she received both her&nbsp; Bachelor of Science and&nbsp; Master of Science Degree in Electrical Engineering. She, her husband and son reside in Fort Worth, Texas.</p>
+      <p>&nbsp;</p>
+      <p><SPAN style="language: EN">Four exciting tracks, our plenary speaker, and our lunchtime keynote speaker will make this year&rsquo;s MetroCon one that will be hard to forget. We hope to see you all there!</SPAN> </p>
+      <p><SPAN style="language: EN"><strong>-- </strong></SPAN><SPAN
+style="FONT-STYLE: italic; FONT-FAMILY: Arial; language: EN"><strong>The 2011 IEEE-FW MetroCon Organizing Committee</strong></SPAN></p>
+    </div>
+    <div class="story">
+      <table width="100%" cellpadding="0" cellspacing="0" summary="">
+        <tr valign="top">
+          <td class="storyLeft"> <p>
+            <a href="emergTrack.htm" class="capsule">Emerging Technologies Track </a> A<SPAN style="language: EN"> continuing high-tech feature of MetroCon, returns yet again with an even broader range of topics.&nbsp;</SPAN></p></td>
+          <td> <p>
+            <a href="softSysTrack.htm" class="capsule">Software and Systems Engineering Track</a><SPAN style="language: EN">This track returns to MetroCon this year featuring critical technologies and cutting-edge developments occurring today in the industry. </SPAN></p></td>
+        </tr>
+        <tr valign="top">
+          <td class="storyLeft"> <p>
+            <a href="devDeployTrack.htm" class="capsule">Developing and Deploying Secure Systems Track</a> <SPAN style="language: EN">Another returning track this year, provides an overview of how to develop and deploy secure applications.</SPAN></p></td>
+          <td> <p>
+            <a href="bioTechTrack.htm" class="capsule">Biotechnologies Track</a> <SPAN style="language: EN">This track brings together biotechnologists, academe, and engineers to share the current biomedical industry issues, advances, and successes. </SPAN></p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+   <div id="siteInfo"> Site Map | Privacy | <a href="contact.htm">Contact Us</a> | &copy;2011
+    MetroCon.org</div>
+</div>
+<!--end pagecell1-->
+<br>
+<script type="text/javascript">
+    <!--
+      var menuitem1 = new menu(7,1,"hidden");
+			var menuitem2 = new menu(7,2,"hidden");
+			var menuitem3 = new menu(7,3,"hidden");
+			var menuitem4 = new menu(7,4,"hidden");
+			var menuitem5 = new menu(7,5,"hidden");
+			var menuitem6 = new menu(7,6,"hidden");
+			var menuitem7 = new menu(7,7,"hidden");
+    // -->
+    </script>
+</body>
+</html>
